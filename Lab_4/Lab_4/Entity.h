@@ -46,12 +46,6 @@ public:
 	}
 
 	//
-	int getEntityId()
-	{
-		return id;
-	}
-
-	//
 	void setName(string name)
 	{
 		m_componentName = name;
@@ -65,7 +59,6 @@ public:
 
 private:
 	vector<Component> components;
-	int id;
 	string m_componentName;
 };
 
